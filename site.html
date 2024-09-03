@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Exemplo</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Menu Dropdown -->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Serviços</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Serviço 1</a></li>
+                    <li><a href="#">Serviço 2</a></li>
+                    <li><a href="#">Serviço 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Slider -->
+    <div class="slider">
+        <div class="slides">
+            <div class="slide active"><img src="/Design sem nome.png" alt="Slide 1"></div>
+            <div class="slide"><img src="/drive.png" alt="Slide 2"></div>
+            <div class="slide"><img src="https://via.placeholder.com/800x400" alt="Slide 3"></div>
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+
+    <!-- Cards de Produtos/Serviços -->
+    <section class="cards">
+        <div class="card">
+            <img src="/mecatene.png" alt="Mercedes">
+            <h3>Mercedes</h3>
+            <p>carro de alto padrão.</p>
+            <a href="#">Saiba mais</a>
+        </div>
+        <div class="card">
+            <img src="/bire.png" alt="Produto 2">
+            <h3>BMW</h3>
+            <p>carros esprtivo de alto padrão</p>
+            <a href="#">Saiba mais</a>
+        </div>
+        <div class="card">
+            <img src="/cvl.png" alt="Produto 3">
+            <h3>Porsche</h3>
+            <p>velocidade e conforto nesse esportivo.</p>
+            <a href="#">Saiba mais</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Sua Empresa. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Serviço</a>
+                <a href="#">Contato</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
